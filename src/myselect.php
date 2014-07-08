@@ -89,7 +89,6 @@ class MySelect {
         $status = 0;
         $item = '';
         for($i=0;$i< $len; $i++){
-           // echo  $line[$i].PHP_EOL;
             if(($line[$i] == '\'' || $line[$i] == '"') &&($i ==0 || $line[$i-1] !='\\')){
                     if($status == 3){
                         $res[] = $item;
@@ -147,7 +146,6 @@ class MySelect {
         
         $this->sql = preg_replace('/([a-zA-Z]{1,8})\s*\(\s*(\S+)\s*\)/', '\\1(\\2)', $this->sql);
         $this->sql = preg_replace_callback('/regsub\(\s*([^,]+),\s*(\/\S+\/[imsxeADSUXJu]*)\s*,\s*([^,]+)\)/Ui', array($this,'replace_regsub'), $this->sql);
-//echo $this->sql.PHP_EOL;
         $this->sql = preg_replace('/strsub\s*\(\s*([\$0-9]+)\s*,\s*([0-9]+)\s*,\s*([0-9]+)\s*\)/Ui','strsub(\\1,\\2,\\3)', $this->sql);
         $this->sql = preg_replace('/strsub\s*\(\s*([\$0-9]+)\s*,\s*([0-9]+)\s*\)/Ui','strsub(\\1,\\2)', $this->sql);
        
@@ -484,9 +482,6 @@ class MySelect {
          return $out;
         
     }
-    
-
-    
     
     function parseGroup($str){
         
