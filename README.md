@@ -6,7 +6,7 @@ SQL based log statistics and analysis tool
 
 
 you can use sql syntax to  analyze your log file which is a general textfile with myselect.myselect assume  log line the 
-record in the database,and assume  item split by space the field in the database. you can use myselect as follow
+record in the database,and assume item split by space the field in the database. you can use myselect as follow
 
 
 log line:
