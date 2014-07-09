@@ -19,7 +19,7 @@ log line:
 
 find the most client ip:
 
-    $ myselect  'select count(\$1),\$1 from accesstest.log  group by \$1 order by count($1) desc limit 10'
+    $ myselect  'select count($1),$1 from accesstest.log  group by $1 order by count($1) desc limit 10'
     14	111.13.65.251
     13	10.141.88.248
     12	10.141.88.239
