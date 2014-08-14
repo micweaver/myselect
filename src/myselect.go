@@ -1,4 +1,4 @@
-// myselect
+// myselect，翻译自PHP版本
 //该程序正在开发中，不可用，仅作备份用
 package main
 
