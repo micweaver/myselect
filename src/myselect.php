@@ -967,7 +967,6 @@ class MySelect {
 //$sql = 'select $1,count($1) FROM a.txt group by $1 having count($1) >= 1 order by $1,count($1)  limit 5';
 
 
-
 $usage =<<<EOF
 usage:
 myselect  'sql sentence'; 用 sql进行统计分析
