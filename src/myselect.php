@@ -76,7 +76,6 @@ class MySelect {
        // if(in_array($char, array('\n','\r','\t','\v','\f',' '))){
          //   return true;
       //  }
-      
         if($char == '\n' || $char =='\r' || $char == '\t' || $char =='\v' || $char == '\f' || $char == ' '){
             return true;
         }
