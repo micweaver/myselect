@@ -34,3 +34,16 @@ find the most client ip:
 
 
 more introduction here : http://blog.csdn.net/micweaver/article/details/37579153
+
+
+
+发个招聘：
+
+高级算法工程师
+职位描述：
+1. 参与搜索算法、LBS技术、反作弊的研发工作，处理业界最前沿的海量司机乘客匹配效率和反作弊业务；
+2. 有搜索、learning to rank、广告机器学习，反作弊，LBS路线匹配算法经验任意以上者优先；
+3. 使用大规模数据处理平台对海量数据分析建模；
+
+有意请发简历至zhonghuali241@163.com
+
